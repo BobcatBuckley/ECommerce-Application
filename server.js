@@ -6,10 +6,10 @@ const express = require("express"),
 server.set("port", process.env.PORT || 3000);
 
 server.get("/", (request, response) => {
-  response.send("Welcome to our simple online order managing web app!");
+  response.send("Welcome to our candle shop!");
 });
 
-//Add the /orders code here!
+//Add the /orders code here!d
 server.get("/orders", (request, response) => {
   response.json(orderData);
 });
